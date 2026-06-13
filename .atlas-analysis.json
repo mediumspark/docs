@@ -1,0 +1,101 @@
+{
+  "projectType": "saas",
+  "projectName": "QuickDraft",
+  "projectDescription": "A distraction-free, browser-based writing space that lets you create, share, and collaborate on drafts instantly — no sign-up required.",
+  "theme": "almond",
+  "primaryColor": "#4F46E5",
+  "lightColor": "#818CF8",
+  "darkColor": "#3730A3",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "editor-overview"
+            ]
+          },
+          {
+            "group": "Writing & Editing",
+            "pages": [
+              "guides/editor-basics",
+              "guides/markdown",
+              "guides/view-modes",
+              "guides/voice-to-text"
+            ]
+          },
+          {
+            "group": "Sharing & Collaboration",
+            "pages": [
+              "guides/sharing-links",
+              "guides/real-time-collaboration",
+              "guides/custom-urls",
+              "guides/password-protection"
+            ]
+          },
+          {
+            "group": "Saving & Organizing",
+            "pages": [
+              "guides/auto-save",
+              "guides/saved-drafts",
+              "guides/account-sync",
+              "guides/importing-files"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "account/sign-up",
+              "account/privacy"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Help",
+        "groups": [
+          {
+            "group": "Support",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Instant browser-based editor with no sign-up required",
+    "Shareable edit links for real-time collaboration",
+    "Read-only sharing links for view-only access",
+    "Customizable draft URLs (custom slugs)",
+    "Password-protected drafts",
+    "Auto-save to browser local storage",
+    "Account-based cloud sync for cross-device access",
+    "Markdown preview and code view modes",
+    "Voice-to-text dictation",
+    "Word and character counter",
+    "Bookmark and organize saved drafts",
+    "Import .txt files directly into the editor",
+    "Light and dark theme toggle",
+    "One-click sharing to social platforms and messaging apps"
+  ],
+  "publicApiSurface": [
+    "Draft editor (browser-based)",
+    "Shareable edit link generation",
+    "Read-only link generation",
+    "Custom URL slug configuration",
+    "Password protection settings",
+    "Markdown / raw text / code view toggle",
+    "Voice-to-text dictation (browser speech recognition)",
+    "Save to My Account (cloud sync)",
+    "Local Drafts storage",
+    "Import .txt file upload",
+    "Cross-platform share (Twitter, Facebook, WhatsApp, Reddit, Telegram, Email)"
+  ]
+}

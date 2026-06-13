@@ -1,0 +1,63 @@
+---
+title: "Fix Common QuickDraft Issues: Saving, Sync, and Login"
+sidebarTitle: "Troubleshooting"
+description: "Step-by-step solutions for common QuickDraft issues — draft not saving, voice dictation errors, sync problems, and login failures."
+---
+
+This guide covers the most common issues users encounter with QuickDraft and how to resolve them. If none of these steps solve your problem, contact support using the card at the bottom of this page.
+
+<AccordionGroup>
+  <Accordion title="My draft isn't saving automatically">
+    QuickDraft saves to your browser's local storage on every keystroke. If saving isn't working:
+
+    1. Check that local storage is not disabled or full for quickdraft.in. In Chrome, go to **Settings → Privacy → Site Settings → Additional content settings → On-device site data** and confirm it is not blocked for `quickdraft.in`.
+    2. If local storage is full, open the **Saved Drafts** panel and clear out old drafts you no longer need.
+    3. For reliable, persistent saving across sessions and devices, click **☁ Save to My Account** — this requires a free account.
+  </Accordion>
+
+  <Accordion title="The shared link isn't working for my collaborator">
+    Try the following steps:
+
+    1. Make sure you're sharing the full URL, including the complete draft slug at the end.
+    2. Ask your collaborator to open the link in an incognito or private browsing window to rule out local cache issues.
+    3. If the draft is password-protected, confirm your collaborator has the correct password.
+    4. Check that your draft slug doesn't conflict with an existing draft — if you chose a custom slug, it must be unique across all QuickDraft users.
+  </Accordion>
+
+  <Accordion title="Voice dictation isn't starting">
+    Voice-to-text requires both microphone permission and a compatible browser:
+
+    1. Check that your browser has permission to access your microphone for `quickdraft.in`. Look for the microphone icon in your browser's address bar and allow access if prompted.
+    2. Voice dictation relies on the Web Speech API, which is **not supported in Firefox**. Switch to Chrome, Edge, or Safari.
+    3. If you're on a device with multiple microphones, confirm the correct input is selected in your OS sound settings.
+  </Accordion>
+
+  <Accordion title="The Markdown preview is blank or not rendering">
+    1. Make sure your content uses valid Markdown syntax.
+    2. Open the preview by clicking **+ Markdown** below the editor — not a toolbar button.
+    3. If the preview panel opens but appears empty, your draft may be blank or contain only rich-text formatted content (applied via the toolbar). Markdown preview renders raw Markdown syntax, not rich-text formatting.
+  </Accordion>
+
+  <Accordion title="I can't log in to my account">
+    1. Double-check your email address and password. Passwords are case-sensitive.
+    2. If you've forgotten your password, click the **Forgot Password** link on the login dialog and follow the reset instructions.
+    3. If you haven't received a password reset email within a few minutes, check your spam or junk folder.
+    4. Make sure you're not signed in to a different account already — log out first, then try again.
+  </Accordion>
+
+  <Accordion title="My chosen custom URL slug is already taken">
+    Custom URL slugs are shared globally across all QuickDraft users, so common words are often already in use. Try a more specific slug by adding a unique word, your username, or a date — for example, use `team-notes-jan2025` instead of `team-notes`.
+  </Accordion>
+
+  <Accordion title="My account drafts aren't appearing on a different device">
+    1. Confirm you're signed in with the same account on both devices. Click **Log In** in the top navigation bar and enter your credentials.
+    2. Once signed in, open **Saved Drafts → ☁ My Account Drafts** to see your cloud-synced drafts.
+    3. If a draft is still missing, check whether it was saved as a local draft (not to your account) on the original device — local drafts do not sync. Open the original device and click **☁ Save to My Account** to push it to the cloud.
+  </Accordion>
+</AccordionGroup>
+
+## Contact support
+
+<Card title="Get in touch" icon="envelope">
+  Still stuck? Reach out at [support@quickdraft.in](mailto:support@quickdraft.in) and include a description of the issue, your browser and OS version, and any error messages you see. We'll get back to you as soon as possible.
+</Card>

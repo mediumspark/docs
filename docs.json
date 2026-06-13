@@ -1,0 +1,96 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "QuickDraft",
+  "theme": "almond",
+  "colors": {
+    "primary": "#4F46E5",
+    "light": "#818CF8",
+    "dark": "#3730A3"
+  },
+  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:support@quickdraft.in"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Open App",
+      "href": "https://www.quickdraft.in"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "editor-overview"
+            ]
+          },
+          {
+            "group": "Writing & Editing",
+            "pages": [
+              "guides/editor-basics",
+              "guides/markdown",
+              "guides/view-modes",
+              "guides/voice-to-text"
+            ]
+          },
+          {
+            "group": "Sharing & Collaboration",
+            "pages": [
+              "guides/sharing-links",
+              "guides/real-time-collaboration",
+              "guides/custom-urls",
+              "guides/password-protection"
+            ]
+          },
+          {
+            "group": "Saving & Organizing",
+            "pages": [
+              "guides/auto-save",
+              "guides/saved-drafts",
+              "guides/account-sync",
+              "guides/importing-files"
+            ]
+          },
+          {
+            "group": "Account",
+            "pages": [
+              "account/sign-up",
+              "account/privacy"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Help",
+        "groups": [
+          {
+            "group": "Support",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/quickdraft"
+    }
+  }
+}
